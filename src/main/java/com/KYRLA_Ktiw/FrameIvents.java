@@ -80,7 +80,7 @@ public class FrameIvents implements Listener {
         }
         if (frame.isFixed() && framesfix.contains(frame.getUniqueId())) {
             event.setCancelled(true);
-            player.sendActionBar(ChatColor.GOLD + "Предмет в рамке зафиксирован используйте" + ChatColor.BLUE + " топор");
+            player.sendActionBar(ChatColor.GOLD + "Предмет в рамке зафиксирована используйте" + ChatColor.BLUE + " топор");
             player.playSound(player.getLocation(), Sound.BLOCK_GLASS_BREAK, 0.5f, 0.5f);
         }
     }
